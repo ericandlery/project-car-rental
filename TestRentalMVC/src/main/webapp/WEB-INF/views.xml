@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- InternalResourceView -->
+
+	<bean id="reg_success"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_registry/reg_success.jsp"></property>
+	</bean>
+	<bean id="member_registry"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_registry/member_registry.jsp"></property>
+	</bean>
+	<bean id="index"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/index.jsp"></property>
+	</bean>
+	<bean id="login"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/login.jsp"></property>
+	</bean>
+	<bean id="inquire_active_orders"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/inquire_active_orders.jsp"></property>
+	</bean>
+	<bean id="inquire_history_order"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/inquire_history_order.jsp"></property>
+	</bean>
+	<bean id="wallet"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/wallet.jsp"></property>
+	</bean>
+	<bean id="member_update_success"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/member_update_success.jsp"></property>
+	</bean>
+	<bean id="member_update"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/member_update.jsp"></property>
+	</bean>
+	<bean id="manager_login"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/manager_login.jsp"></property>
+	</bean>
+	<bean id="memebr_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/member/memebr_list.jsp"></property>
+	</bean>
+	<bean id="member_friend"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/member_friend.jsp"></property>
+	</bean>
+	<bean id="order_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/order/order_list.jsp"></property>
+	</bean>
+	<bean id="car_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/car/car_list.jsp"></property>
+	</bean>
+	<bean id="branch_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/branch/branch_list.jsp"></property>
+	</bean>
+	<bean id="send_car_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/staff_zone/send_car/send_car_list.jsp"></property>
+	</bean>
+	<bean id="getback_car_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/staff_zone/getback_car/getback_car_list.jsp"></property>
+	</bean>
+	<bean id="model_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/model_function/model.jsp"></property>
+	</bean>
+	<bean id="get_back_car_with_fine"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/staff_zone/getback_car/get_back_car_with_fine.jsp"></property>
+	</bean>
+	<bean id="airfield_service"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/pickup_service/airfield/airfield_service.jsp"></property>
+	</bean>
+	<bean id="branch_list_reset"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="selectAllBranchOrder.controller"></property>
+	</bean>
+	<bean id="car_list_reset"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="selectAllCarOrder.controller"></property>
+	</bean>
+	<bean id="friend"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/friend.jsp"></property>
+	</bean>
+	<bean id="messageboard"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/messageboard.jsp"></property>
+	</bean>
+	<bean id="myarticle"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/myarticle.jsp"></property>
+	</bean>
+	<bean id="articlepage"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/articlepage.jsp"></property>
+	</bean>
+	<bean id="friendarticle"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/friendarticle.jsp"></property>
+	</bean>
+	<bean id="addnewfriend"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/addnewfriend.jsp"></property>
+	</bean>
+	<bean id="invitask"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/invitask.jsp"></property>
+	</bean>
+	<bean id="BranchSearch"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/branch_zone/BranchSearch.jsp"></property>
+	</bean>
+	<bean id="new_order"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/pickup_service/airfield/new_order.jsp"></property>
+	</bean>
+	<bean id="showpic"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/showpic.jsp"></property>
+	</bean>
+	<bean id="current_order"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/pickup/current_order.jsp"></property>
+	</bean>
+	<bean id="history_pickup"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/pickup/history_pickup.jsp"></property>
+	</bean>
+	<bean id="pickup_driver_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/pickup_manager/pickup_driver_list.jsp"></property>
+	</bean>
+	<bean id="pickup_today"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/pickup_manager/pickup_today.jsp"></property>
+	</bean>
+	<bean id="pickup_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/pickup_manager/pickup_list.jsp"></property>
+	</bean>
+	<bean id="pickup_today_controller"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="showTodayPickupOrder.controller"></property>
+	</bean>
+	<bean id="newarticle"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/newarticle.jsp"></property>
+	</bean>
+	<bean id="messageboardmanage"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/forum_manager/messageboardmanage.jsp"></property>
+	</bean>
+	<bean id="managearticlepage"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/forum_manager/managearticlepage.jsp"></property>
+	</bean>
+	<bean id="opinion_sent"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/opinion/opinion_sent.jsp"></property>
+	</bean>
+	<bean id="send_opinion"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/opinion/send_opinion.jsp"></property>
+	</bean>
+	<bean id="opinion_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/opinion/opinion_list.jsp"></property>
+	</bean>
+	<bean id="model_list_reset"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="selectAllCarCategory.controller"></property>
+	</bean>
+	<bean id="show_opinions"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/member_function/show_opinions.jsp"></property>
+	</bean>
+	<bean id="managereportmessage"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/forum_manager/managereportmessage.jsp"></property>
+	</bean>
+	
+	
+	<bean id="audit_list"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/audit/audit_list.jsp"></property>
+	</bean>
+	<bean id="reviewMembership"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="reviewMembership.controller"></property>
+	</bean>
+	<bean id="all_category"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/car_list/all_category.jsp"></property>
+	</bean>
+	<bean id="all_model"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/car_list/all_model.jsp"></property>
+	</bean>
+	<bean id="model_cars"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/car_list/model_cars.jsp"></property>
+	</bean>
+	
+	
+	<bean id="tour_all_list"
+		 class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/manager_zone/tour/tour_list.jsp"></property>
+	</bean>
+	<bean id="save_car_num"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/car_list/order/save_car_num.jsp"></property>
+	</bean>
+	<bean id="showCategoryList.controller"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="showCategoryList.controller"></property>
+	</bean>
+	<bean id="license_not_enough"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/car_list/order/license_not_enough.jsp"></property>
+	</bean>
+	<bean id="order_success"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/car_list/order/order_success.jsp"></property>
+	</bean>
+
+	<bean id="tour_all"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/Tour/tour_all.jsp"></property>
+	</bean>
+	<bean id="tour_north"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/Tour/tour_north.jsp"></property>
+	</bean>
+	<bean id="tour_edit"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="tour_all.controller"></property>
+	</bean>
+	<bean id="showOpinionList.controller"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="showOpinionList.controller"></property>
+	</bean>
+	<bean id="newarticlefinish"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/forum/newarticlefinish.jsp"></property>
+	</bean>
+	<bean id="manageArticle"
+	     class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/forum_manager/manageArticle.controller"></property>
+	</bean>
+	<bean id="staff_list"
+	     class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="/manager_zone/staff/staff_list.jsp"></property>
+	</bean>
+	<bean id="staff_list_con"
+	     class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url"
+			value="showStaffList.controller"></property>
+	</bean>
+
+
+
+
+
+
+
+
+
+
+	<!-- RedirectView -->
+	
+	
+	
+	<bean id="login_sr" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url" value="/TestRentalMVC/member_function/login.jsp"></property>
+	</bean>
+	<bean id="index_sr" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url" value="/TestRentalMVC/index.jsp"></property>
+	</bean>
+	<bean id="manager_zone" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url" value="/TestRentalMVC/manager_zone/manager_zone.jsp"></property>
+	</bean>
+	<bean id="staff_zone" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url"
+			value="/TestRentalMVC/manager_zone/staff_zone/staff_zone.jsp"></property>
+	</bean>
+	<bean id="send_car_list_sr" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url" value="getUnfinishedOrders.controller"></property>
+	</bean>
+	<bean id="getback_car_list_sr" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url" value="getCarBackOrders.controller"></property>
+	</bean>
+	<bean id="manager_login_sr" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url"
+			value="/TestRentalMVC/manager_zone/manager_login.jsp"></property>
+	</bean>
+	<bean id="new_order_sr" class="org.springframework.web.servlet.view.RedirectView">
+		<property name="url"
+			value="/TestRentalMVC/pickup_service/airfield/between.jsp"></property>
+	</bean>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Test -->
+
+	<bean id="test"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/test/test.jsp"></property>
+	</bean>
+	<bean id="test_upload"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="/test/test_upload.jsp"></property>
+	</bean>
+	<bean id="UploadComplete.controller"
+		class="org.springframework.web.servlet.view.InternalResourceView">
+		<property name="url" value="UploadComplete.controller"></property>
+	</bean>
+
+</beans>

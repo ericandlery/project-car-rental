@@ -1,0 +1,6 @@
+
+	ALTER TABLE tour ADD area VARCHAR(50) NULL
+
+ 	ALTER TABLE tour DROP COLUMN score ;
+	ALTER TABLE tour DROP COLUMN score_count ;
+	ALTER TABLE tour DROP COLUMN popularity ; 

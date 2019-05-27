@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{background-image:URL(/TestRentalMVC/images/manabg2000x1000.jpg);margin:0px;}
+header{height:100px;background-color:#FFAC12;font-size:5em;text-align:center;color:white;font-weight:bold;}
+header a{float:right;margin-right:250px;margin-top:-110px;}
+header span a{float:right;margin-right:-360px;margin-top:-90px;}
+nav{background-color:white;height:10px;}
+footer{background-color:darkorchid;height:50px;text-align:center;font-size:2em}
+
+
+
+
+
+
+/* @charset "UTF-8"; */
+/* body{background-image:URL(/TestRentalMVC/images/manabg2000x1000.jpg);margin:0px;} */
+/* header{height:100px;background-color:#FFAC12;font-size:5em;text-align:center;color:white;font-weight:bold;} */
+/* nav{background-color:white;height:10px;} */
+/* nav a{float:right;margin-right:250px;margin-top:-110px;} */
+/* nav span a{float:right;margin-right:-360px;margin-top:-90px;} */
+/* footer{background-color:darkorchid;height:50px;text-align:center;font-size:2em} */
+

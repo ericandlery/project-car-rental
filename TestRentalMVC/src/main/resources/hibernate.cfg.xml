@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-5.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+		<mapping class="model.tour.TourBean"></mapping>
+		<mapping class="model.PictureBean"></mapping>
+		<mapping class="model.ArticleBean"></mapping>
+		<mapping class="model.message.MessageBean"></mapping>
+		<mapping class="model.member.MemberBean"></mapping>
+		<mapping class="model.rental_order.Rental_orderBean"></mapping>
+		<mapping class="model.manager.ManagerBean"></mapping>
+		<mapping class="model.friendlist.FriendlistBean"></mapping>
+		<mapping class="model.car.CarBean"></mapping>
+		<mapping class="model.branch.BranchBean"></mapping>
+		<mapping class="model.staff.StaffBean"></mapping>
+		<mapping class="model.model.ModelBean"></mapping>
+		<mapping class="model.car_category.Car_categoryBean"></mapping>
+		<mapping class="model.wallethistory.WalletHistoryBean"></mapping>
+		<mapping class="model.driver.DriverBean"></mapping>
+		<mapping class="model.airfield.AirfieldBean"></mapping>
+		<mapping class="model.equip.EquipBean"></mapping>
+		<mapping class="model.coupon.CouponBean"></mapping>
+		<mapping class="model.pickup_order.Pickup_orderBean"></mapping>
+		<mapping class="model.customer_service.Customer_serviceBean"></mapping>
+		
+<!-- 		<mapping class="model.driverworkdate.DriverworkdateBean"></mapping> -->
+	
+<!-- 		<mapping class="test.Carcar"></mapping> -->
+<!-- 		<mapping class="test.Model"></mapping> -->
+
+
+	</session-factory>
+</hibernate-configuration>

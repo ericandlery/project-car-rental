@@ -1,0 +1,12 @@
+重要！
+請先在ServletContextListener設定圖檔路徑
+
+路徑對應的Context物件名
+
+用ServletContext.getRealPath物件取得專案的路徑
+
+會員駕照圖檔
+member_license_folder
+
+車種
+car_category_folder
