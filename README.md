@@ -7,3 +7,6 @@ This is a car rental webapp project.
   <li>Spring MVC</li>
   <li>Hibernate</li>
 </ol>
+<hr>
+Intro
+<img src="">
